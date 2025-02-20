@@ -15,7 +15,7 @@ const AboutPage = () => {
         {/* GIF Section */}
         <div className="d-flex justify-content-center my-4">
           <img 
-            src="./assets/about.png" 
+            src="./assets/about.jpg" 
             className="img-fluid"
           />
         </div>
