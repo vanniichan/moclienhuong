@@ -134,25 +134,25 @@ const Products = () => {
             className="btn btn-outline-dark btn-sm m-2"
             onClick={() => setFilter(data)}
           >
-            All
+            Tất cả
           </button>
           <button
             className="btn btn-outline-dark btn-sm m-2"
             onClick={() => filterProduct("trial product")}
           >
-            Trial Product
+            Hộp dùng thử
           </button>
           <button
             className="btn btn-outline-dark btn-sm m-2"
             onClick={() => filterProduct("box of 20 cones")}
           >
-            Box of 20 cones
+              Hộp 20 nụ 
           </button>
           <button
             className="btn btn-outline-dark btn-sm m-2"
             onClick={() => filterProduct("box of 40 cones")}
           >
-            Box of 40 cones
+            Hộp 40 nụ
           </button>
           <Dropdown sortProductsByPrice={sortProductsByPrice} />;
           <FilterByPrice filterProductsByPrice={filterProductsByPrice} />
@@ -183,7 +183,7 @@ const Products = () => {
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item lead">{product.price}.000 VND</li>                  
                   <li className="list-group-item">
-                    Category: {product.category}{" "}
+                    Danh mục: {product.category}{" "}
                   </li>
                 </ul>
                 <div className="card-body">
@@ -191,16 +191,16 @@ const Products = () => {
                     to={"/product/" + product.id}
                     className="btn btn-dark m-1"
                   >
-                    Buy Now
+                    Mua ngay
                   </Link>
                   <button
                     className="btn btn-dark m-1"
                     onClick={() => {
-                      toast.success("Added to cart");
+                      toast.success("Đã thêm vào giỏ");
                       addProduct(product);
                     }}
                   >
-                    Add to Cart
+                    Thêm vào giỏ
                   </button>
                 </div>
               </div>
@@ -215,7 +215,7 @@ const Products = () => {
       <div className="container my-3 py-3">
         <div className="row">
           <div className="col-12">
-            <h2 className="display-5 text-center">Our Products</h2>
+            <h2 className="display-5 text-center">Sản phẩm của chúng tôi</h2>
             <hr />
           </div>
         </div>
