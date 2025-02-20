@@ -174,10 +174,10 @@ const Product = () => {
                 className="btn btn-outline-dark"
                 onClick={() => addProduct(product)}
               >
-                Add to Cart
+                Thêm vào giỏ
               </button>
               <Link to="/cart" className="btn btn-dark mx-3">
-                Go to Cart
+                Xem giỏ hàng
               </Link>
             </div>
           </div>
@@ -237,13 +237,13 @@ const Product = () => {
                       to={"/product/" + item.id}
                       className="btn btn-dark m-1"
                     >
-                      Buy Now
+                      Mua ngay
                     </Link>
                     <button
                       className="btn btn-dark m-1"
                       onClick={() => addProduct(item)}
                     >
-                      Add to Cart
+                      Thêm vào giỏ
                     </button>
                   </div>
                 </div>
