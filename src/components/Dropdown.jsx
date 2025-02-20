@@ -15,7 +15,7 @@ const Dropdown = ({ sortProductsByPrice }) => {
         onClick={toggleDropdown}
         aria-expanded={isOpen ? "true" : "false"}
       >
-        Sort by Price
+         Sắp xếp theo giá
       </button>
       {isOpen && (
         <ul
@@ -29,7 +29,7 @@ const Dropdown = ({ sortProductsByPrice }) => {
               role="menuitem"
               onClick={() => sortProductsByPrice("asc")}
             >
-              Low to High
+              Thấp đến cao
             </button>
           </li>
           <li>
@@ -38,7 +38,7 @@ const Dropdown = ({ sortProductsByPrice }) => {
               role="menuitem"
               onClick={() => sortProductsByPrice("desc")}
             >
-              High to Low
+              Cao đến thấp
             </button>
           </li>
         </ul>
