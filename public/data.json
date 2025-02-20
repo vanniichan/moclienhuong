@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "title": "Trail Product",
+    "price": 39.000,
+    "description": "Đây là sản phẩm dùng thử dành cho quý khách muốn trải nghiệm và đánh giá xem có phù hợp với nhu cầu của mình hay không",
+    "category": "trial product",
+    "image": "https://hackmd.io/_uploads/Sk2_RostJg.jpg)",
+    "rating": {
+      "rate": 5,
+      "count": 120
+    }
+  },
+  {
+    "id": 2,
+    "title": "Box of 20 cones",
+    "price": 69.000,
+    "description": "Sản phẩm gồm 20 nụ hương, mang đến trải nghiệm thư giãn và hương thơm tự nhiên, phù hợp cho không gian thiền định và thư giãn.",
+    "category": "box of 20 cones",
+    "image": "https://hackmd.io/_uploads/Sk2_RostJg.jpg)",
+    "rating": {
+      "rate": 5,
+      "count": 259
+    }
+  },
+  {
+    "id": 3,
+    "title": "Box of 40 cones",
+    "price": 169.000,
+    "description": "Sản phẩm gồm 40 nụ hương, với số lượng nhiều hơn, giúp kéo dài hương thơm, tăng cường thư giãn, thanh lọc không gian và mang lại nhiều lợi ích hơn cho sức khỏe và tinh thần.",
+    "category": "box of 40 cones",
+    "image": "https://hackmd.io/_uploads/Sk2_RostJg.jpg)",
+    "rating": {
+      "rate": 5,
+      "count": 500
+    }
+  }
+]
+
